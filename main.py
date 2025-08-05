@@ -252,8 +252,8 @@ def main():
         # Footer
         st.markdown("---")
         st.caption("""
-        Aplikasi ini hanya untuk keperluan penelitian.
-        Tetap konsultasikan dengan ahlinya sebelum mengonsumsi jamur liar.
+        Aplikasi ini dibuat untuk keperluan tugas akhir.
+        Selalu konsultasikan dengan ahlinya sebelum mengonsumsi jamur liar.
         """)
         
     except Exception as e:
