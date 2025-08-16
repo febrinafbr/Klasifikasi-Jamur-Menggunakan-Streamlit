@@ -96,7 +96,7 @@ def preprocess_image(img_file, target_size=(384, 384)):
         raise RuntimeError(f"Gagal memproses gambar: {str(e)}")
 
 
-def predict_mushroom(img_file, model, threshold=0.5):
+def predict_mushroom(img_file, model, threshold=0.6):
     """Make prediction on mushroom image"""
     try:
         img_array, img = preprocess_image(img_file)
